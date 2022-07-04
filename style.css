@@ -18,7 +18,6 @@ p {
 
 
 .top {
-    display: flex;
     margin-bottom: 10%;
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
@@ -27,7 +26,6 @@ p {
 .bottom {
     margin-top: 5%;
     margin-bottom: 10%;
-    display: flex;
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -60,4 +58,8 @@ p {
     padding: 10px 40px;
     background-image: linear-gradient(rgb(255, 115, 0), rgba(255, 19, 54, 0.861));
     border-radius: 5px;
+}
+
+.flexible-container {
+    display: flex;
 }
