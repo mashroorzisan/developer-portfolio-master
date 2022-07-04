@@ -1,6 +1,44 @@
-body{
+body {
     font-family: 'Josefin Sans', sans-serif;
 }
-.orange{
+
+h1 {
+    font-size: 50px;
+}
+
+.orange {
     color: orange;
+}
+
+p {
+    font-size: 18px;
+    color: dimgrey
+}
+
+section {
+    display: flex;
+}
+
+.para {
+    width: 50%;
+
+    padding-left: 5%;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button {
+    font-weight: 700;
+    color: seashell;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(rgb(255, 115, 0), rgba(255, 19, 54, 0.861));
+    border-radius: 5px;
 }
